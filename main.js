@@ -60,5 +60,5 @@ function criaElemento(item) {
 
 
 function atualizaElemento(item){
-    console.log(document.querySelector("[data-id='"+item.id+"']").innerHTML = item.quantidade);
+    document.querySelector("[data-id='"+item.id+"']").innerHTML = item.quantidade;
 }
